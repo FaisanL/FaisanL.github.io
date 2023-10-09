@@ -1,0 +1,121 @@
+body{
+    font-family: "MiFuente", sans-serif;
+    background-color: rgb(14, 22, 41) !important;
+}
+ 
+  
+@font-face {
+    font-family: "MiFuente",;
+    src: url("font/SpaceFrotesk.ttf")
+  }
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+}
+
+.saludo{
+    font-weight: bold;
+    font-size: 2em;
+    /*Posicion*/
+    text-align: start;
+}
+#saludo{
+    color: #01AAC8;
+}
+#saludo2{
+    color: rgb(196, 194, 194);
+}
+    
+.navbar .nav-link {
+    margin-right: 30px; /* Puedes ajustar el valor para obtener el espaciado deseado */
+    font-size: 23px;
+    font-weight: bold;
+}
+.primeras-letras{
+    color: #01AAC8
+}
+.segundas-letras{
+    color: rgb(196, 194, 194);
+}
+.style-texth1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.style-texth2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #01AAC8;
+}
+.box-separation{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.box-style{
+    background-color: #01aac827;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.grid-separation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* Ajusta este valor según tus preferencias */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+  }
+  .box-style-grid {
+    background-color: #01aac827;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .h2-style {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #01AAC8;
+  }
+
+.p-style{
+    color: rgb(196, 194, 194);
+    text-align: left;
+    width: 500px;
+}
+.p-style-2{
+    color: rgb(196, 194, 194);
+    text-align: center;
+}
+hr.new{
+    background-color: white !important;
+    height:10px;
+    border-radius: 10px;
+}
+.h2-style {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #01AAC8;
+}
+
+.img-style {
+    max-width: 150px;
+    max-height: 100px;
+    width: auto; /* Asegura que las imágenes no se estiren y mantengan su proporción */
+    height: auto; /* Asegura que las imágenes no se estiren y mantengan su proporción */
+    border-radius: 100px;
+}
+.box-style-grid {
+    background-color: #01aac827;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+}
+
+.xd {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan en filas en pantallas pequeñas */
+}
