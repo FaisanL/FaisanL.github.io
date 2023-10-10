@@ -12,8 +12,14 @@ body{
     justify-content: center;
     background-color: #1f325e;
 }
-.home{
-  align-self: start;  
+.home {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 10px; /* Ajusta la distancia desde la izquierda */
+    text-decoration: none;
+    color: #01AAC8;
+    font-weight: bold;
+    font-size: 20px;
 }
 .container{
     position: relative;
