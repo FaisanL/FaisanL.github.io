@@ -1,3 +1,4 @@
 # FaisanL.github.io
-To-do 20% Incomplete
-Weather-app 95% Incomplete
+Maybe this project need some fixes :P
+To-do Complete
+Weather-app Complete
