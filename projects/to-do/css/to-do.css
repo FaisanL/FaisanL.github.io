@@ -1,23 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Autour One', sans-serif;
+    background-color: #1f325e;
+    color: #01AAC8;
 }
-
+.home {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    left: 10px; /* Ajusta la distancia desde la izquierda */
+    text-decoration: none;
+    color: #01AAC8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.home:hover{
+    text-decoration: none;
+}
 .todo-container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 5px solid #01AAC8;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input[type="text"] {
+    color: #01AAC8;
     width: 70%;
     padding: 8px;
     margin-right: 10px;
 }
 
-button {
+button{
     padding: 8px 16px;
 }
 .xd{
@@ -26,4 +40,17 @@ button {
     justify-content: center;
     align-items: center;
     height: 100vh; 
+}
+.task-style{
+    margin-top: 10px;
+    border: 3px solid #01AAC8;
+    border-radius: 5px;
+}
+.text-style{
+    color: #01AAC8;
+}
+.input-container input{
+    border: 3px solid;
+    border-radius: 30px;
+    background-color: #01aac800;
 }

@@ -6,6 +6,7 @@
     <title>Fabian Lobos</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" >
     <link rel="icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -90,16 +91,26 @@
         <div class="box-separation">
             <hr class="new">
         </div>
+        
         <div class="container">
             <h2 class="style-texth2" id="linkproyectos">Projects</h2>
-            <div class="box-style">
-                <div>
-                    <p class="p-style">Weather app</p>
-                    <a href="projects/weather/weather.html"><img class="img-style" src="img/weather.png" href="/projects/wheater/weather.html"></a>
+            <div class="row grid-separation">
+                <div class="col-md-12 mb-4 sm-12">
+                    <div class="box-style d-flex align-items-center xd">
+                        <div class="project-style">
+                            <h5>Weather</h5>
+                            <a href="projects/weather/weather.html"><img class="img-style" src="img/weather.png" alt="Weather App"></a>
+                        </div>
+                        <div class="project-style">
+                            <h5>To do</h5>
+                            <a href="projects/to-do/to-do.html"><img class="img-style" src="img/to-do.png" alt="To Do App"></a>
+                        </div>
+                    </div>
                 </div>
-                
             </div>
         </div>
+        
+        
         
         <br>
     </div>

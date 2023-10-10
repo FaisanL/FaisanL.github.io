@@ -17,7 +17,6 @@ body{
 .saludo{
     font-weight: bold;
     font-size: 2em;
-    /*Posicion*/
     text-align: start;
 }
 #saludo{
@@ -28,7 +27,7 @@ body{
 }
     
 .navbar .nav-link {
-    margin-right: 30px; /* Puedes ajustar el valor para obtener el espaciado deseado */
+    margin-right: 30px;
     font-size: 23px;
     font-weight: bold;
 }
@@ -53,16 +52,18 @@ body{
 }
 .box-style{
     background-color: #01aac827;
-    display: inline-block;
     border-radius: 10px;
-    padding: 15px;
-
+    padding: 20px;
+    margin: 20px 0;
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 70%;
 }
 .grid-separation {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px; /* Ajusta este valor según tus preferencias */
-    margin: 0 auto; /* Centra el contenido horizontalmente */
+    max-width: 1200px;
+    margin: 0 auto;
   }
   .box-style-grid {
     background-color: #01aac827;
@@ -78,7 +79,6 @@ body{
 .p-style{
     color: rgb(196, 194, 194);
     text-align: left;
-    width: 500px;
 }
 .p-style-2{
     color: rgb(196, 194, 194);
@@ -98,8 +98,8 @@ hr.new{
 .img-style {
     max-width: 150px;
     max-height: 100px;
-    width: auto; /* Asegura que las imágenes no se estiren y mantengan su proporción */
-    height: auto; /* Asegura que las imágenes no se estiren y mantengan su proporción */
+    width: auto;
+    height: auto;
     border-radius: 100px;
 }
 .box-style-grid {
@@ -110,12 +110,16 @@ hr.new{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden; /* Evita que las imágenes sobresalgan del contenedor */
+    overflow: hidden;
 }
 
 .xd {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Permite que las imágenes se envuelvan en filas en pantallas pequeñas */
+    flex-wrap: wrap; 
+}
+.project-style{
+    text-align: center;
+    color: #01AAC8;
 }
