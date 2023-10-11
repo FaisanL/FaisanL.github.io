@@ -14,8 +14,8 @@ body{
 }
 .home {
     position: absolute;
-    top: 10px; /* Ajusta la distancia desde la parte superior */
-    left: 10px; /* Ajusta la distancia desde la izquierda */
+    top: 10px;
+    left: 10px; 
     text-decoration: none;
     color: #01AAC8;
     font-weight: bold;
