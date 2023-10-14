@@ -1,14 +1,7 @@
 body{
-    font-family: "MiFuente", sans-serif;
     background-color: rgb(14, 22, 41) !important;
     background-image: url("../img/background.png"); 
 }
- 
-  
-@font-face {
-    font-family: "MiFuente",;
-    src: url("font/SpaceFrotesk.ttf")
-  }
 .logo{
     height: 70px;
     width: 70px;
@@ -51,7 +44,7 @@ body{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.box-style{
+.box-intro-style{
     background-color: #054657;
     border-radius: 10px;
     padding: 20px;
@@ -60,16 +53,19 @@ body{
     word-wrap: break-word;
     width: 70%;
 }
-.grid-separation {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-.box-style-grid {
+.box-style{
     background-color: #054657;
     border-radius: 10px;
     padding: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.grid-separation {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 .h3-style{
     font-size: 30px;
@@ -119,4 +115,21 @@ hr.new{
 .project-style{
     text-align: center;
     color: #01AAC8;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    background-color:transparent !important;
+    border: 0px solid !important;
+    
+}
+.card img{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
 }

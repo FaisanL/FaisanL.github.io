@@ -1,0 +1,55 @@
+body{
+    font-family: 'DotGothic16', sans-serif !important;
+
+}
+.home {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    text-decoration: none;
+    color: #01AAC8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.home:hover{
+    text-decoration: none;
+}
+.center-box{
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+.style-box{
+    background-color: rgb(31, 84, 131);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 5px black solid;
+    border-radius: 50px;
+}
+.style-box > * {
+    margin: 10px; /* Añade un margen de 10px a todos los elementos directos dentro de .style-box */
+}
+.style-box h1{
+    font-weight: bold;
+    margin: 20px;
+    font-size: 50px;
+    height: 50px;
+}
+.style-box input{
+    background-color: aqua;
+    border: 0px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+}
+.pokemon-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.pokemon-block img{
+    width:200px;
+    height:200px;
+}
