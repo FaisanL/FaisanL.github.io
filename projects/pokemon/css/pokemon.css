@@ -1,6 +1,6 @@
 body{
     font-family: 'DotGothic16', sans-serif !important;
-
+    background-color: #1f325e !important; 
 }
 .home {
     position: absolute;
@@ -32,13 +32,15 @@ body{
 }
 .style-box h1{
     font-weight: bold;
+    color: white;
     margin: 20px;
     font-size: 50px;
     height: 50px;
 }
 .style-box input{
-    background-color: aqua;
-    border: 0px;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
     font-weight: bold;
     width: 300px;
     height: 50px;
@@ -52,4 +54,16 @@ body{
 .pokemon-block img{
     width:200px;
     height:200px;
+}
+.check-button{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
+.result{
+    color: white;
+    font-size: 25px;
 }
