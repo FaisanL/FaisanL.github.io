@@ -1,6 +1,7 @@
 body{
     background-color: rgb(14, 22, 41) !important;
     background-image: url("../img/background.png"); 
+    font-family: 'Archivo Black', sans-serif !important;
 }
 .logo{
     height: 70px;
@@ -103,7 +104,7 @@ hr.new{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
+    overflow:auto;
 }
 
 .xd {
@@ -132,4 +133,16 @@ hr.new{
     font-weight: bold;
     font-size: 25px;
     text-align: center;
+}
+.box-style-contact{
+    background-color: #054657;
+    border-radius: 10px;
+}
+.contact-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-list img{
+    width: 70px;
+    height: 70px;
 }
