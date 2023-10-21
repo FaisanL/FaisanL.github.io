@@ -2,6 +2,18 @@ body{
     background-color: #033642 !important;
     font-family: "Black-Ops", sans-serif !important;
 }
+.home {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+    text-decoration: none;
+    color: #01AAC8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.home:hover{
+    text-decoration: none;
+}
 .calc{
     border: 5px solid black;
     display: block;

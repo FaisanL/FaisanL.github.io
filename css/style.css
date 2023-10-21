@@ -104,7 +104,7 @@ hr.new{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow:auto;
+
 }
 
 .xd {
